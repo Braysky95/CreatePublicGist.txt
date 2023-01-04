@@ -1,0 +1,60 @@
+Test Scenario - Check edit functionality in gist
+  
+Test Case ID: EEG_001 
+Module: Your gists
+Feature: Edit Gist
+
+Positive (+)/ Negative (-) Test Case: Positive (+) Test Case
+
+Test Case: Update a gist.
+
+Description: The user can update their created gist 
+
+Test Step: 1. Go to https://gist.github.com/ and login with GitHub account.
+           2. Choose 'Your Gist' from the drop down menu on the right hand side of the header bar then search Your gists.  
+           3. Click the desired gist and click the edit button.
+           4. Update the gist then click button 'Update public gist'
+
+Input Data: File Name: CreatePublicGist.txt
+
+Expected Results: 1. Direct to Gist Github Discover
+                  2. GitHub will show the gists that belongs to the user 
+                  3. The desired gist can be updated.
+
+Actual Results: As expected
+
+Test Date: 04 Januari 2023
+
+Status (Pass, Fail, Not Executed, Suspended): Pass
+
+Error Category (Interface, Function, Data, Business Rule): None  
+
+
+Test Case ID: EEG_002 
+Module: Your gists
+Feature: Edit Gist
+
+Positive (+)/ Negative (-) Test Case: Negative (-) Test Case
+
+Test Case: Update a gist without a GitHub account.
+
+Description: The user can update their created gist without a GitHub account
+
+Test Step: 1. Go to https://gist.github.com/ and login with GitHub account.
+           2. Choose 'Your Gist' from the drop down menu on the right hand side of the header bar then search Your gists.  
+           3. Click the desired gist and click the edit button.
+           4. Update the gist then click button 'Update public gist'
+
+Input Data: File Name: CreatePublicGist.txt
+
+Expected Results: 1. Direct to Gist Github Discover
+                  2. GitHub will not show the gists that belongs to the user 
+                  3. The desired gist cannot be updated.
+
+Actual Results: As expected
+
+Test Date: 04 Januari 2023
+
+Status (Pass, Fail, Not Executed, Suspended): Pass
+
+Error Category (Interface, Function, Data, Business Rule): None  
