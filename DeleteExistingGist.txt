@@ -20,7 +20,7 @@ Input Data: File Name: CreatePublicGist.txt
 Expected Results: 1. Direct to Gist Github Discover
                   2. Shows Gist list belong that User 
                   3. Pop up confirmation will appear when user click button delete
-                  3. Gist will be deleted and not appear on Gist List or Gist Discovery
+                  4. Gist will be deleted and not appear on Gist List or Gist Discovery
 
 Actual Results: As expected
 
